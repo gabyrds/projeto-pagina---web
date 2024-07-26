@@ -26,3 +26,47 @@ h1 {
 body {
     background-color: var(--cor-de-fundo);
 }
+:root {
+    --cor-de-fundo: #EBECEE;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+h1 {
+    background-color: white;
+}
+.cabeçalho_menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    display: inline-block;
+}
+@import url("styles/header.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+}
+.cabeçalho_menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    display: inline-block;
+}
+
+.cabeçalho {
+    background-color: var(--branco);
+}
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+}
+.cabeçalho {
+    background-color: var(--branco);
+}
