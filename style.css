@@ -109,10 +109,103 @@ body {
         background-color: var(--cor-de-fundo);
         font-family: var(--fonte-principal);
         font-size: 16px;
-        font-weight: 400;
+        font-weight: 400;.tópicos {
+            background: var(--azul-degrade);
+            text-align: center;
+           padding: 1em 0;
+        }
+        
+        .tópicos__titulo {
+           color: var(--branco);
+            font-weight: 300;
+            margin-bottom: 1em;
+        }
+        
+        .tópicos__lista {
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+        }
+        
+        .tópicos__item {
+           margin: 2em 0.5em;
+        }
+        
+        .tópicos__link {
+           color: var(--branco);
+          padding: 1em;.tópicos {
+            background: var(--azul-degrade);
+            text-align: center;
+           padding: 1em 0;
+        }
+        
+        .tópicos__titulo {
+           color: var(--branco);
+            font-weight: 300;
+            margin-bottom: 1em;
+        }
+        
+        .tópicos__lista {
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: center;
+        }
+        
+        .tópicos__item {
+           margin: 2em 0.5em;
+        }
+        
+        .tópicos__link {
+           color: var(--branco);
+          padding: 1em;
+          background-color: var(--laranja);
+          text-decoration: none;
+          font-size: 14px;
+          font-weight: 700;
+        
+        }
+          background-color: var(--laranja);
+          text-decoration: none;
+          font-size: 14px;
+          font-weight: 700;
+        
+        }
     }
     @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/carrossel.css");
+.tópicos {
+    background: var(--azul-degrade);
+    text-align: center;
+   padding: 1em 0;
+}
+
+.tópicos__titulo {
+   color: var(--branco);
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+
+
+
